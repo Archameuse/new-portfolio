@@ -7,6 +7,7 @@
   --color-placeholder: #b1b2b5;
   --font-tomorrow: Tomorrow, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
   --section-min: min(100vh,100dvh,60rem);
+  --breakpoint-xs: 30rem;
 }
 
 @utility min-h-section {

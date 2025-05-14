@@ -1,7 +1,7 @@
 <template>
-  <footer class="w-full  bg-secondary-light text-white sticky bottom-0 flex flex-col justify-end text-center px-8 py-4 items-center gap-4">
+  <footer class="w-full  bg-secondary-light text-white sticky bottom-0 flex flex-col justify-end text-center px-8 py-4 items-center gap-4 overflow-hidden">
     <div class="w-full flex">
-      <h2 class="text-3xl text-left">Let's create more together! Reach out at <b class="text-primary-light">divulinm@gmail.com</b> to collaborate</h2>
+      <h2 class="text-2xl xs:text-3xl md:text-4xl text-left">Let's create more together! Reach out at <b class="text-primary-light">divulinm@gmail.com</b> to collaborate</h2>
     </div>
     <ul class="flex gap-4 h-8 text-primary-light [&>a]:bg-secondary-light [&>a]:hover:bg-primary-light [&>a]:hover:text-secondary-light [&>a]:transition-all">
       <a title="Github" descr href="https://github.com/Archameuse" class="contact">
