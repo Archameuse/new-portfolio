@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where([theme-dark], [theme-dark] *));
+
+@theme {
+  --color-primary-light: #f7ebdb;
+  --color-secondary-light: #0d465c;
+  --color-primary-dark: #222831;
+  --color-secondary-dark: #15191e;
+  /* --color-primary-dark: #646e82; */
+  /* --color-secondary-dark: #222831; */
+  /* --color-thirdary-dark: #76ABAE; */
+  --font-tomorrow: 'Tomorrow', 'Fira Sans', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* --font-tomorrow: 'Fira Sans', Impact; */
+  --section-min: min(100vh,100dvh,60rem);
+  --breakpoint-xs: 30rem;
+}
+
+@utility min-h-section {
+  min-height: min(100vh,100dvh,45rem)
+}
+
+
+@layer base {
+  h1 {
+    font-size: var(--text-5xl);
+    font-weight: bold;
+  }
+  img {
+    user-select: none;
+  }
+  @media (width >= 40rem) {
+    h1 {
+      font-size: var(--text-6xl);
+    }
+  }
+}
+
+@layer components {
+  .contact {
+    height: 100%;
+    aspect-ratio: 1;
+    border-radius: 9999rem;
+    cursor: pointer;
+  }
+  .contact:active {
+    opacity: 0.8;
+  }
+}

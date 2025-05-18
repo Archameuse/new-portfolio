@@ -1,0 +1,84 @@
+{
+    "en": {
+        "firstname": "Mihail",
+        "lastname": "Divulin",
+        "developer": "Web Developer",
+        "learnmore": {
+            "learn": "Learn",
+            "more": "More"
+        },
+        "about": {
+            "hello": "Hello! I'm",
+            "main": "I have experience with front-end frameworks such as Vue, Nuxt, React, and Angular. In terms of implementing backend logic, I'm skilled in using Node.js, Express, and both SQL and NoSQL (MongoDB and Firebase) databases. With a background in both frontend and backend development, I effectively bridge the gap between implementing visual aspects of website and technical performance, ensuring a seamless user experience. I thrive on solving complex development challenges by leveraging my skills to create efficient and maintainable websites."
+        },
+        "discoverprojects": {
+            "discover": "Discover",
+            "projects": "Projects"
+        },
+        "projects": {
+            "visit": "Visit Project",
+            "source": "Source",
+            "1": "Tweeter is a simple social network platform inspired by Twitter, built as part of a legacy DevChallenges.io fullstack developer challenges. Being part of a coding challenge, it emulates core feautres of popular social media platforms. Tweeter allows users to create an account, login, follow other users, create, save, like and repost posts, reply to each other's posts. The website was developed mainly using modern framework, Nuxt, which handles both the frontend and backend, ensuring responsive user experience and robust server-side functionality. As for the database - PostgreSQL was selected for its powerful queries and flexible schemas. With a focus on simplicity, this project demonstrates key concepts in modern website development - such as state management, database integration and component-based architecture.",
+            "2": "This project dedicated to Magic Football, a Warcraft III custom map, offering a comprehensive database of all playable heroes. Each hero features detailed talents and ability descriptions and video previews all of which can be edited by authorised users from website itself. The site also includes a player stats section, where match data is pulled in real-time from a Google Sheets document using Google Sheets API, allowing the community to track rankings. This website built with Nuxt for server-side rendering and smooth navigation, Tailwind CSS for rapid development and consistent design system. Additionally, the website supports multiple languages via i18n, making it accessible to a global player base (although currently english translation for heroes description is kinda cursed). This project serves as both a useful resource for community and a demonstration of full-stack capability, combining dynamic content management with responsive design.",
+            "3": "Unsplash Collection is a full-stack web application based on DevChallenges.io challenge. This project was developed using the FERN stack (Firebase, Express, React, Node.js) and demonstrates key full-stack development skills, including API integration, and database management. Users can browse Unsplash images, create custom collections, and save their favourite photos with a clean, responsive UI built in React and styled with TailwindCSS. ",
+            "4": "Code Sharing App is a part of a DevChallenges.io full-stack projects. Built with FEAN stack (Firebase, Epxress, Angular, Node.js) this website allows developers to save code in multiple languages and generate unique shareable links. The frontent, built with Angular, features an integrated code editor (Monaco Eeditor) for real time syntax highlighting and editing, while the responsive UI ensures seamless use across devices. On the backend, Node.js with express handles storage of unique shareable links in Firebase Firestore, with uuId generating unique IDs for each shared snippet. ",
+            "5": "My first project - a simple rock-paper-scissors app, that was developed as part of a legacy DevChallenges.io challenges, it uses Next for front-end (React based library) and no back-end since all data is stored in local storage."
+        },
+        "reach": {
+            "1": "Let's create more together! Reach out at",
+            "2": "to collaborate."
+        }
+    },
+    "ru": {
+        "firstname": "Михаил",
+        "lastname": "Дивулин",
+        "developer": "Разработчик",
+        "learnmore": {
+            "learn": "Узнать",
+            "more": "Больше"
+        },
+        "about": {
+            "hello": "Привет! Это",
+            "main": "Я работаю с такими фронтенд-фреймворками, как Vue, Nuxt, React и Angular, создавая интерактивные и отзывчивые пользовательские интерфейсы. При работе с бэкендом я использую такие технологии, как Node.js, Express, SQL и NoSQL (MongoDB и Firebase) базы данных. Обладая навыками как во фронтенд-, так и в бэкенд-разработке, я эффективно объединяю визуальную составляющую веб-сайта с его функциональной частью, обеспечивая бесшовное взаимодействие пользователя с сайтом. Я стремлюсь решать сложные задачи в разработке, используя свой опыт работы как с клиентской, так и с серверной частью для создания эффективных и легко поддерживаемых сайтов."
+        },
+        "discoverprojects": {
+            "discover": "Прошлые",
+            "projects": "Проекты"
+        },
+        "projects": {
+            "visit": "Посетить проект",
+            "source": "Источник",
+            "1": "Tweeter это простая социальная сеть вдохновленная Twitter, созданная в рамках одного из старых челленджей фуллстак разработчика от DevChallenges.io. Являясь частью задания, проект воспроизводит ключевые функции популярных социальных сетей. Пользователи Tweeter могут создавать аккаунты, входить в систему, подписываться на других пользователей, создавать, сохранять, лайкать и репостить записи, а также отвечать на посты друг друга. Сайт был разработан с использоваинем современного фреймворка Nuxt, который объединяет в себе как фронтенд, так и бэкенд, обеспечивая отзывчивый пользовательский интерфейс и надежную серверную функциональность. В качестве базы данных была выбрана PostgreSQL за счёт своих мощных возможностей запросов и гибкости в работе со схемами. Проект сфокусриован на простоте и демонстрирует ключевые концепции современной веб-разработки - такие как state management, интеграция баз данных и компонентно-ориентированная архитектура."
+        },
+        "reach": {
+            "1": "Создадим больше вместе! Связаться по адресу",
+            "2": "для сотрудничества."
+        }
+    },
+    "ua": {
+        "firstname": "Михайло",
+        "lastname": "Дівулін",
+        "developer": "Розробник",
+        "learnmore": {
+            "learn": "Читати",
+            "more": "Більше"
+        },
+        "about": {
+            "hello": "Привіт! Це",
+            "main": "Я працюю з такими фронтенд-фреймворками, як Vue, Nuxt, React та Angular, створюючи інтерактивні та адаптивні користувацькі інтерфейси. У роботі з бекендом використовую такі технології, як Node.js, Express, SQL і NoSQL (бази даних MongoDB та Firebase). Володіючи навичками як у фронтенд-, так і в бекенд-розробці, я ефективно поєдную візуальну складову вебсайту з його функціональною частиною, забезпечуючи плавну взаємодію користувача з ресурсом. Я прагну вирішувати складні завдання в розробці, використовуючи свій досвід для створення ефективних та зручних у підтримці сайтів."
+        },
+        "discoverprojects": {
+            "discover": "Минулі",
+            "projects": "Проекти"
+        },
+        "projects": {
+            "visit": "Перейти до проєкту",
+            "source": "Джерело",
+            "1": "Tweeter - це проста соціальна мережа, натхненна Twitter, створена в межах одного зі старих фулстек-челенджів на DevChallenges.io. Оскільки проєкт був частиною завдання, він відторює ключові функції популярних социальних мереж. Користувачі Tweeter можуть створювати акаунти, входити в систему, підписуватись на інших користувачів, створювати, зберігати, вподобувати та репостити дописи, а також відповідати на пости одне одного. Сайт розроблено за допомогою сучасного фреймворку Nuxt, який поєднує в собі як фронтенд, так і бекенд, забезпечуючи адаптивний інтерфейс та надійну серверну функциональність. У якості бази даних було обрано PostgreSQL - завдяки потужним можливостям запитів і гнучкості в роботі зі схемами. Цей проект, зосереджений на простоті, демонструє ключові концепції сучасної веброзробки - такі як state management, інтеграція баз даних і компонентно-орієнтована архітектура."
+        },
+        "reach": {
+            "1": "Створимо більше разом! Зв`язатись за адресою",
+            "2": "для співпраці."
+        }
+    }
+}
