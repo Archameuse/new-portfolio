@@ -73,7 +73,7 @@ const themeChange = () => {
   // DarkMode.value = !DarkMode.value
   if(document.documentElement.toggleAttribute('theme-dark')) {
     localStorage.setItem('theme', 'dark')
-  } else localStorage.removeItem('theme')
+  } else localStorage.setItem('theme', 'light')
 }
 
 const scrollFunc = (to:string) => {
