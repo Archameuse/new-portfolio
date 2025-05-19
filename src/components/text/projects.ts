@@ -42,17 +42,17 @@ export const projects:projectType[] = [
     ],
     year: 2024
   },
-  {
-    title: "Magic Football",
-    src: "/mf.png",
-    descr: 2,
-    url: "https://magicfootballsite.vercel.app/",
-    git: "https://github.com/Archameuse/mflast",
-    tags: [
-      'vue', 'nuxt', 'firebase', 'Google Sheets api'
-    ],
-    year: 2024
-  },
+  // {
+  //   title: "Magic Football",
+  //   src: "/mf.png",
+  //   descr: 2,
+  //   url: "https://magicfootballsite.vercel.app/",
+  //   git: "https://github.com/Archameuse/mflast",
+  //   tags: [
+  //     'vue', 'nuxt', 'firebase', 'Google Sheets api'
+  //   ],
+  //   year: 2024
+  // },
   {
     title: "Unsplash Collection",
     src: "/unsplashcol.jpg",
