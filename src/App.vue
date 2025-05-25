@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection.vue';
 import ProjectsSection from './components/ProjectsSection.vue';
 import AboutSection from './components/AboutSection.vue';
 import TheFooter from './components/TheFooter.vue';
+// import AsteroidsBox from './components/AsteroidsBox.vue';
 
 </script>
 
@@ -17,6 +18,8 @@ import TheFooter from './components/TheFooter.vue';
     </div>
   </main>
   <TheFooter />
+  <!-- <AsteroidsBox /> -->
+   <!-- без Q-Learning нет смысла трогать -->
 </template>
 
 <style>

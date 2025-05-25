@@ -8,7 +8,7 @@
           <li class="border border-dashed p-1" v-bind:key="tag" v-for="tag of project.tags">{{tag}}</li>
           <li class="items-center flex gap-[inherit]"><div>•</div><div class="border-b py-1">{{ project.year }}</div></li>
         </ul>
-        <a :href="project.url" @click.prevent.stop class="uppercase h-fit px-4 py-2 border rounded-md transition-all hover:bg-white hover:text-black active:brightness-75 cursor-pointer focus:bg-white focus:text-black select-none text-wrap">{{ $t('projects.visit') }}</a>
+        <a :href="project.url" @click.stop class="uppercase h-fit px-4 py-2 border rounded-md transition-all hover:bg-white hover:text-black active:brightness-75 cursor-pointer focus:bg-white focus:text-black select-none text-wrap">{{ $t('projects.visit') }}</a>
       </div>
     </div>
     <img class="w-full h-full object-cover absolute top-0 left-0 -z-10 brightness-50 peer-hover:brightness-15 transition" :src="project.src">

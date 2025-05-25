@@ -10,7 +10,7 @@ export type projectType = {
 
 export const projects:projectType[] = [
   {
-    title: "Tweeter",
+    title: "Placeholder",
     src: "/3.jpg",
     descr: 1,
     url: "https://tweeterlast.vercel.app/",
@@ -18,18 +18,18 @@ export const projects:projectType[] = [
     tags: [
       'vue', 'nuxt', 'Postgresql', 'tailwind'
     ],
-    year: 2024
+    year: 2025
   },
   {
-    title: "Tweeter",
-    src: "/5.jpg",
+    title: "Task Board",
+    src: "/tasksboard.jpg",
     descr: 1,
-    url: "https://tweeterlast.vercel.app/",
-    git: "https://github.com/Archameuse/tweeterlast",
+    url: "https://taskboard-eight-wheat.vercel.app/",
+    git: "https://github.com/Archameuse/taskboard",
     tags: [
-      'vue', 'nuxt', 'Postgresql', 'tailwind'
+      'vue', 'node', 'Firebase', 'tailwind'
     ],
-    year: 2024
+    year: 2025
   },
   {
     title: "Tweeter",
