@@ -20,7 +20,7 @@
       ref="modalRef"
     >
       <img
-        class="w-full h-full absolute top-0 left-0 opacity-40 dark:opacity-25 object-cover"
+        class="w-full h-full absolute top-0 left-0 opacity-40 dark:opacity-15 object-cover"
         :src="project.src + '/blur.webp'"
         alt=""
         aria-hidden="true"
@@ -38,7 +38,7 @@
         </button>
         <h1 id="modal-title" class="text-center w-full">{{ project.title }}</h1>
         <hr class="w-full" />
-        <p id="modal-description" class="mt-6">
+        <p id="modal-description" class="mt-6 text-lg">
           {{ $t(`projects.${project.descr}`) }}
         </p>
         <img

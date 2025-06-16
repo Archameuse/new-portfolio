@@ -8,12 +8,18 @@
       <div class="w-full flex flex-col items-center gap-4">
         <ContactsHolder />
         <div class="aspect-square max-w-56 w-4/5 relative">
-          <img
+          <div
+            class="rounded-full h-full w-full object-cover hover:opacity-75 hover:dark:opacity-50 transition-opacity peer duration-300 overflow-hidden"
+          >
+            <LogoIcon />
+            <span class="sr-only">Logo of a developer</span>
+          </div>
+          <!-- <img
             alt="Portrait of the developer"
             src="/1.jpg"
             draggable="false"
             class="rounded-full h-full w-full object-cover hover:opacity-75 hover:dark:opacity-50 transition-opacity peer duration-300"
-          />
+          /> -->
           <!-- <img src="/drawing3.svg" draggable="false" class="h-full w-full object-cover hover:opacity-75 hover:dark:opacity-50 transition-opacity peer duration-300"> -->
           <hr
             aria-hidden="true"
@@ -46,6 +52,7 @@
 <script setup lang="ts">
 import ContactsHolder from './ContactsHolder.vue'
 import ArrowDownIcon from './icons/ArrowDownIcon.vue'
+import LogoIcon from './icons/LogoIcon.vue'
 
 const scroll = () => {
   document.getElementById('about')?.scrollIntoView({
