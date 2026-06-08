@@ -6,16 +6,16 @@
     aria-labelledby="about-heading"
   >
     <div class="flex flex-col items-center md:flex-row md:items-stretch">
-      <img
+      <!-- <img
         src="/15.png"
         draggable="false"
         class="w-full min-h-full grow aspect-3/4 min-w-60 max-w-md rounded-md object-cover object-top"
         alt="Portrait of a developer"
-      />
+      /> -->
       <article
         role="article"
         aria-label="About developer"
-        class="flex md:max-w-sm flex-col px-4 text-secondary-light dark:text-primary-light"
+        class="flex max-w-md md:max-w-lg flex-col px-12 py-8 rounded-xl text-secondary-light dark:text-primary-light border-2 border-dashed"
       >
         <h2 id="about-heading" class="text-4xl">
           {{ $t('about.hello') }}

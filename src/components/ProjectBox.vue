@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full h-96 relative text-primary-light select-none max-w-5xl mx-auto"
+    class="w-full h-96 relative text-primary-light select-none max-w-5xl mx-auto rounded-md overflow-hidden"
     role="group"
     :aria-label="`${project.title}, ${project.year}, ${project.tags.join(', ')}`"
   >

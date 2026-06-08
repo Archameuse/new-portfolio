@@ -9,15 +9,15 @@ export type projectType = {
 }
 
 export const projects: projectType[] = [
-  {
-    title: 'Watchalong',
-    src: 'watchalong',
-    descr: 7,
-    url: 'http://193.58.120.110:3000/',
-    git: 'https://github.com/Archameuse/watchalong',
-    tags: ['vue', 'websockets', 'node', 'tailwind'],
-    year: 2025,
-  },
+  // {
+  //   title: 'Watchalong',
+  //   src: 'watchalong',
+  //   descr: 7,
+  //   url: 'http://193.58.120.110:3000/',
+  //   git: 'https://github.com/Archameuse/watchalong',
+  //   tags: ['vue', 'websockets', 'node', 'tailwind'],
+  //   year: 2025,
+  // },
   {
     title: 'Task Board',
     src: 'taskboard',
