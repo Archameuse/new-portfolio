@@ -24,7 +24,7 @@
     </ContactLink>
     <ContactLink
       title="archameus"
-      href="https://discordapp.com/users/447817370157842473"
+      href="https://discord.com/users/447817370157842473"
       aria-label="Discord profile"
       :footer="footer"
     >
