@@ -11,7 +11,7 @@
     </div>
     <ContactsHolder footer />
     <hr class="w-full max-w-xl" />
-    <p>© 2025 Mihail Divulin | All rights reserved.</p>
+    <p>© 2026 Mikhail Divulin | All rights reserved.</p>
   </footer>
 </template>
 
