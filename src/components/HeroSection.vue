@@ -12,7 +12,7 @@
             class="rounded-full h-full w-full object-cover hover:opacity-75 hover:dark:opacity-50 transition-opacity peer duration-300 overflow-hidden"
           >
             <LogoIcon />
-            <span class="sr-only">Logo of a developer</span>
+            <span class="sr-only">Logo of Mikhail Divulin - developer</span>
           </div>
           <!-- <img
             alt="Portrait of the developer"
